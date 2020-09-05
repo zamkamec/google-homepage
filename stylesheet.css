@@ -1,0 +1,108 @@
+main{
+  margin: 0px auto;
+  margin-top: 10%;
+}
+
+#logo {
+    display: block;
+    margin: 0px auto;
+    margin-top: 10%;
+  }
+
+#search {
+  margin: 0px;
+  }
+
+#searchbox {
+  background-color: white;
+  display: block;
+  border-radius: 25px;
+  border: 1px darkgrey solid;
+  margin: 30px auto;
+  width: 30%;
+  height: 40px;
+  }
+
+  #searchbox:hover {
+    box-shadow: 0px 1px 3px 1px rgb(218, 218, 218);
+    }
+
+.button{
+  background-color: #f4f4f4;
+  color: #646368;
+  text-align: center;
+  border: none;
+  text-decoration: none;
+  padding: 13px 30px;
+  border-radius: 4px;
+  font-size: 14px;
+
+}
+
+.button:hover {
+  background-color: #f3f3f3;
+  color: black;
+  border: 1px solid #c6c6c6;
+}
+
+ul {
+    list-style: none;
+    text-decoration: none;
+    padding-top: 5px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+display: block;
+color: rgba(0,0,0,0.87);
+text-decoration: none;
+padding-top: 10px;
+padding-left: 8px;
+padding-right: 8px;
+font-size: 13px;
+text-align: center;
+font-family: arial,sans-serif;
+}
+
+li a:hover{
+    text-decoration: underline;
+    color: #646368;
+    display: block;
+}
+
+#upNav {
+    padding-top: 14px;
+    padding-left: 10px;
+  }
+
+.rightside {
+    float: right;
+
+  }
+
+#botNav {
+    background-color: #f2f2f2;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 5%;
+    padding: 10px 5px;
+  }
+
+
+  .signIn {
+    background-color: #4583ec;
+    color:white;
+    text-align: center;
+    border: none;
+    text-decoration: none;
+    padding: 10px 12px;
+    border-radius: 2px;
+    font-size: 13px;
+    font-weight: bold; 
+    margin: 0px 15px;
+}
